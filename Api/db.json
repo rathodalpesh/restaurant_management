@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "name": "Alpesh Rathod",
+      "email": "alpeshdiu33@gmail.com",
+      "password": "123123123",
+      "id": 1
+    },
+    {
+      "name": "Alpesh 2",
+      "email": "alpesh2@gmail.com",
+      "password": "alpesh2@123",
+      "id": 2
+    },
+    {
+      "name": "Alpesh 3",
+      "email": "alpesh2@gmail.com",
+      "password": "123123123",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "restaurant":[
+      {
+        "id":1,
+        "name":"KFC",
+        "address":"DIU",
+        "contact":112233
+      }
+  ]
+}
