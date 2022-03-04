@@ -27,7 +27,8 @@ body{
   width: 100px;
 }
 .register input,
-.login input {
+.login input,
+.add input {
   padding-left: 20px;
   display: block;
   width: 300px;
@@ -38,7 +39,8 @@ body{
   margin-bottom: 30px;
 }
 .register button,
-.login button {
+.login button,
+.add button {
   width: 320px;
   height: 40px;
   border: 1px solid green;

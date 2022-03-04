@@ -1,8 +1,9 @@
-import Home from './components/Home.vue'
-import Add from './components/Add.vue'
-import Update from './components/Update.vue'
-import SignUp from './components/SignUp.vue'
-import Login from './components/Login.vue'
+import Home from './components/Home.vue';
+import Add from './components/Add.vue';
+import Update from './components/Update.vue';
+import SignUp from './components/SignUp.vue';
+import Login from './components/Login.vue';
+import PageNotFound from './components/PageNotFound.vue';
 import {
     createRouter,
     createWebHistory
@@ -22,7 +23,7 @@ const routes = [
     {
         name: 'Update',
         component: Update,
-        path: '/update'
+        path: '/update/:id'
     },
     {
         name: 'SignUp',
@@ -33,7 +34,13 @@ const routes = [
         name: 'Login',
         component: Login,
         path: '/login'
+    }, 
+    {
+        name: 'PageNotFound',
+        path: '/:pathMatch(.*)*',
+        component: PageNotFound
     }
+
 ]
 
 

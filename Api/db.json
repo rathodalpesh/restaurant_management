@@ -25,12 +25,5 @@
       "id": 4
     }
   ],
-  "restaurant":[
-      {
-        "id":1,
-        "name":"KFC",
-        "address":"DIU",
-        "contact":112233
-      }
-  ]
+  "restaurant": []
 }
